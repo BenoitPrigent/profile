@@ -7,6 +7,18 @@ body {
   color: rgb(30, 30, 30);
 }
 
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 300px;
+}
+
 /* Container Style */
 
 .container {
@@ -98,6 +110,7 @@ body {
 h1 {
   color:#36626A;
   margin: 5px;
+  font-weight: 200;
 }
 
 #button-form:hover {
